@@ -1,0 +1,15 @@
+public class TestClass5026201114 {
+
+    public static void main(String [] args) {
+    ComputeMethods5026201114 computeMethods = new ComputeMethods5026201114();
+
+        double degreesF = computeMethods.fToC(100);
+        System.out.println("Temp in celcius is " + degreesF);
+
+        double hypotenuse = computeMethods.hypotenuse(10,9);
+        System.out.println("Hypotenuse is " + hypotenuse);
+
+        int sum = computeMethods.roll();
+        System.out.println("The sum of the dice values is " + sum);
+    }
+}
